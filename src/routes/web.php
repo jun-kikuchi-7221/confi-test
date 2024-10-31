@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ConfiController;
+use App\Http\Controllers\AuthController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,6 +16,7 @@ use App\Http\Controllers\ConfiController;
 */
 
 Route::get('/', [ConfiController::class, 'index']);
+Route::post('/register', [AuthController::class, 'register' ]);
 
 /* Route::get('/', function () {
     return view('welcome');
