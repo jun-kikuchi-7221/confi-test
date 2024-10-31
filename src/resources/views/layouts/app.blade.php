@@ -13,9 +13,20 @@
 <body>
     <header class="header">
         <div class="header__inner">
-            <a class="header__logo" href="/">
-                FashionablyLate
-            </a>
+            <div class="header-utilities">
+                <a class="header__logo" href="/register">
+                    FashionablyLate
+                </a>
+                <nav>
+                    <ul class="header-nav">
+                        <li class="header-nav__item">
+                            <!-- <form> -->
+                                <!-- <button class="header-nav__button">LOGIN</button> -->
+                            <!-- </form> -->
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </header>
 
