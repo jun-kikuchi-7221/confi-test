@@ -17,15 +17,16 @@
                 <a class="header__logo" href="/register">
                     FashionablyLate
                 </a>
-                <nav>
-                    <ul class="header-nav">
-                        <li class="header-nav__item">
+                @yield('header-button')
+                <!-- <nav> -->
+                    <!-- <ul class="header-nav"> -->
+                        <!-- <li class="header-nav__item"> -->
                             <!-- <form> -->
-                                <!-- <button class="header-nav__button">LOGIN</button> -->
+                            <!-- <a class="header-nav__button-submit" type="submit" href="/login">login</a> -->
                             <!-- </form> -->
-                        </li>
-                    </ul>
-                </nav>
+                        <!-- </li> -->
+                    <!-- </ul> -->
+                <!-- </nav> -->
             </div>
         </div>
     </header>
