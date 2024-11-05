@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 
 
 
-class ConfiController extends Controller
+class UserController extends Controller
 {
     public function index()
     {
@@ -16,6 +16,11 @@ class ConfiController extends Controller
 
     public function register()
     {
-        return view('login');
+        return view('index');
+    }
+
+    public function login()
+    {
+        return view('admin');
     }
 }
