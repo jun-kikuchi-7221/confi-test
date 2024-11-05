@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\ConfiController;
+use App\Http\Controllers\UserController;
 use App\Http\Controllers\AuthController;
 
 /*
@@ -15,9 +15,16 @@ use App\Http\Controllers\AuthController;
 |
 */
 
-Route::get('/', [ConfiController::class, 'index']);
-Route::post('/register', [AuthController::class, 'register' ]);
 
-/* Route::get('/', function () {
+Route::middleware('auth')->group(function () {
+    Route::get('/admin', [AuthController::class, 'admin']);
+});
+
+ Route::post('/login', [AuthController::class, 'login' ]);
+
+/* Route::post('/login', function () {
     return view('welcome');
 }); */
+Route::post('/login', [AuthController::class, 'login']);
+Route::post('/register', [AuthController::class, 'register']);
+Route::post('/admin', [AuthController::class, 'admin']);

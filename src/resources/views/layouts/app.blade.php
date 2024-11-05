@@ -14,19 +14,11 @@
     <header class="header">
         <div class="header__inner">
             <div class="header-utilities">
-                <a class="header__logo" href="/register">
+                <a class="header__logo" type="submit" href="login">
                     FashionablyLate
                 </a>
                 @yield('header-button')
-                <!-- <nav> -->
-                    <!-- <ul class="header-nav"> -->
-                        <!-- <li class="header-nav__item"> -->
-                            <!-- <form> -->
-                            <!-- <a class="header-nav__button-submit" type="submit" href="/login">login</a> -->
-                            <!-- </form> -->
-                        <!-- </li> -->
-                    <!-- </ul> -->
-                <!-- </nav> -->
+
             </div>
         </div>
     </header>

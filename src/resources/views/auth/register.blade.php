@@ -19,7 +19,7 @@
         <p>Register</p>
     </div>
     <div class="register-form">
-        <form class="form" action="/register" method="post">
+        <form class="form" action="/login" method="post">
             @csrf
             <div class="form__group">
                 <div class="form__group-title">
@@ -66,13 +66,10 @@
                     </div>
                 </div>
             </div>
+            <div class="form__button">
+                <button class="form__button-submit" type="submit">登録</button>
+            </div>
         </form>
-        <div class="form__button">
-            <button class="form__button-submit" type="submit">登録</button>
-        </div>
     </div>
-    <!-- <div class="login__link"> -->
-    <!-- <a class="login__button-submit" href="/login">ログインの方はこちら</a> -->
-    <!-- </div> -->
 </div>
 @endsection

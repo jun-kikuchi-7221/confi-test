@@ -1,7 +1,7 @@
 .contact-form__content {
     margin: 0 auto;
     padding: 30px 15px;
-    max-width: 1230px;
+    max-width: 1512px;
     background: #fff;
     /* max-width: 1230px; */
     /* background: #F1ECE7; */
@@ -17,7 +17,8 @@
 
 .form {
     margin: 0 auto;
-    width: 70%;
+    width: 972px;
+    height: 606px;
     text-align: center;
     
 

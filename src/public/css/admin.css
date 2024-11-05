@@ -1,0 +1,84 @@
+.header-btn {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 100px;
+    height: 60px;
+}
+
+.btn {
+    padding: 5px;
+    width: 100px;
+    height: 34px;
+    border: 1px solid #D9C6B5;
+    background: #F0F0F099;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Inika;
+    font-size: 20px;
+    color: #D9C6B5;
+    cursor: pointer;
+}
+
+.admin__content {
+    height: 882px;
+    background-color: #F1ECE7;
+}
+
+
+
+.admin-form__content {
+    margin: 0 auto;
+    padding: 100px 150px;
+    /* padding: 30px 15px; */
+    max-width: 1230px;
+}
+
+.admin-form__heading {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 50px;
+    padding-top: 40px;
+}
+
+p {
+    font-family: Inika;
+    font-size: 35px;
+    color: #8B7969;
+    
+}
+
+.admin-form {
+    width: 736px;
+    height: 579px;
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid #C5B9B0;
+    border-radius: 10px;
+
+}
+
+
+.form {
+    border: 10px #000;
+    margin: 80px auto;
+    width: 445px;
+    height: 278.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.form__group {
+    margin-bottom: 5px;
+}
+
+.form__group-title {
+    text-align: left;
+    font-family: Inika;
+    font-size: 25px;
+    color: #8B7969;
+}
