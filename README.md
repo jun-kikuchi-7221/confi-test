@@ -22,6 +22,12 @@ Laravel 環境構築
     ・Laravel Framework 8.83.8
     ・Mysql 8.0.26
 
+## ER図
+
+![confi test](https://github.com/user-attachments/assets/63bf7262-779a-4c08-8e30-4dbb79a63c1c)
+
+    
+
 ## URL
 
     ・開発環境：http://localhost/
